@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class NotificationMessage extends BaseTest{
+public class NotificationMessageTest extends BaseTest{
 
     @Test
     public void message(){
@@ -10,7 +10,7 @@ public class NotificationMessage extends BaseTest{
             try {
                 driver.findElement(By.xpath("//a[@href='/notification_message']")).click();
             } catch (Exception e) {
-                driver.findElement(By.xpath("//div[@class='flash notice']/Action unsuccesful, please try again"));
+                driver.findElement(By.xpath("//div[@class='flash notice']/Action successful"));
             }
     }
 }
