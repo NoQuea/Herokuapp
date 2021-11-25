@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 import static org.testng.Assert.*;
 
-public class AddRemoveElements extends BaseTest {
+public class AddRemoveElementsTest extends BaseTest {
 
     String deleteButtonLocator = "[onclick='deleteElement()']";
 

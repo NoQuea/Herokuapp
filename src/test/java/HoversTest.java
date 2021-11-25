@@ -6,7 +6,7 @@ import java.util.List;
 import static org.testng.AssertJUnit.assertTrue;
 
 
-public class Hovers extends BaseTest{
+public class HoversTest extends BaseTest{
 
         String figcaption = "//div[@class='figcaption']/h5";
 
