@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class ContextMenuTest extends BaseTest {
 
     @Test
-    public void contextMenu(){
+    public void contextMenu() {
         contextMenuPage.open();
 
         actions.contextClick(driver.findElement(By.id("hot-spot")))
@@ -17,8 +17,8 @@ public class ContextMenuTest extends BaseTest {
                 .perform();
 
         Alert alert = driver.switchTo().alert();
-        Assert.assertEquals(alert.getText(),"You selected a context menu", "Text is not corrected");
+        Assert.assertEquals(alert.getText(), "You selected a context menu", "Text is not corrected");
         alert.dismiss();
-        Assert.assertEquals(contextMenuPage.setContextMenu(),"Context Menu", "Alert wasn't closed");
+        Assert.assertEquals(contextMenuPage.setContextMenu(), "Context Menu", "Alert wasn't closed");
     }
 }
