@@ -1,7 +1,9 @@
+package testsBaseLevel;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class NotificationMessageTest extends BaseTest{
+public class NotificationMessageTest extends BaseTest {
 
     @Test
     public void message(){

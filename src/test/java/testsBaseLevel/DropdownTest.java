@@ -1,8 +1,10 @@
+package testsBaseLevel;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class DropdownTest extends BaseTest{
+public class DropdownTest extends BaseTest {
 
     String value1 = "//option[@value='1']";
     String value2 = "//option[@value='2']";

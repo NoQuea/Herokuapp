@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90ae45a6-a12d-40d8-a759-493adb7ca4ea" name="Changes" comment="SortableDataTables is changed to SortableDataTablesTest, changed the test itself">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ContextMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/ContextMenuTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortableDataTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortableDataTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddRemoveElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/AddRemoveElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckBoxesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/CheckBoxesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/DropdownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HoversTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/HoversTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InputsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/InputsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NotificationMessageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/NotificationMessageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SortableDataTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/SortableDataTablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TyposTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsBaseLevel/TyposTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AddRemoveElementsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckBoxesTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SauceDemo2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,8 +64,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pasha\IdeaProjects\Herokuapp\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testsAvancedLevel" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.SortableDataTablesTest.checkTheContentsOfSeveralTableCells">
+  <component name="RunManager" selected="TestNG.ContextMenuTest.contextMenu">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,11 +80,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxesTest.checkBox" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Herokuapp" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckBoxesTest" />
-      <option name="METHOD_NAME" value="checkBox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testsAvancedLevel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testsAvancedLevel" />
+      <option name="MAIN_CLASS_NAME" value="testsAvancedLevel.ContextMenuTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextMenuTest.contextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Herokuapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testsAvancedLevel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testsAvancedLevel" />
+      <option name="MAIN_CLASS_NAME" value="testsAvancedLevel.ContextMenuTest" />
+      <option name="METHOD_NAME" value="contextMenu" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,20 +118,8 @@
     <configuration name="InputsTest.enterVariousDigitalAndNotDigitalValues" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Herokuapp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InputsTest" />
+      <option name="MAIN_CLASS_NAME" value="testsBaseLevel.InputsTest" />
       <option name="METHOD_NAME" value="enterVariousDigitalAndNotDigitalValues" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NotificationMessageTest.message" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Herokuapp" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NotificationMessageTest" />
-      <option name="METHOD_NAME" value="message" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,7 +130,7 @@
     <configuration name="SortableDataTablesTest.checkTheContentsOfSeveralTableCells" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Herokuapp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortableDataTablesTest" />
+      <option name="MAIN_CLASS_NAME" value="testsBaseLevel.SortableDataTablesTest" />
       <option name="METHOD_NAME" value="checkTheContentsOfSeveralTableCells" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -115,7 +142,7 @@
     <configuration name="TyposTest.checkParagraphSpelling" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Herokuapp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TyposTest" />
+      <option name="MAIN_CLASS_NAME" value="testsBaseLevel.TyposTest" />
       <option name="METHOD_NAME" value="checkParagraphSpelling" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -126,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContextMenuTest.contextMenu" />
+        <item itemvalue="TestNG.ContextMenuTest" />
         <item itemvalue="TestNG.SortableDataTablesTest.checkTheContentsOfSeveralTableCells" />
         <item itemvalue="TestNG.TyposTest.checkParagraphSpelling" />
         <item itemvalue="TestNG.InputsTest.enterVariousDigitalAndNotDigitalValues" />
-        <item itemvalue="TestNG.NotificationMessageTest.message" />
-        <item itemvalue="TestNG.CheckBoxesTest.checkBox" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638203424268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SortableDataTables is changed to SortableDataTablesTest, changed the test itself">
+      <created>1638206068953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638206068953</updated>
+    </task>
+    <task id="LOCAL-00005" summary="SortableDataTables is changed to SortableDataTablesTest, changed the test itself">
+      <created>1638206074190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638206074190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

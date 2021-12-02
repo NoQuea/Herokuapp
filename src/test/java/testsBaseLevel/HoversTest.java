@@ -1,12 +1,15 @@
+package testsBaseLevel;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+
 import java.util.List;
 import static org.testng.AssertJUnit.assertTrue;
 
 
-public class HoversTest extends BaseTest{
+public class HoversTest extends BaseTest {
 
         String figcaption = "//div[@class='figcaption']/h5";
 
