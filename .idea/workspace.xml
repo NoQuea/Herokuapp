@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90ae45a6-a12d-40d8-a759-493adb7ca4ea" name="Changes" comment="add ContextMenuPage">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DynamicControlsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FileUploadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/DynamicControlsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/FileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/1_small-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FramePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/FrameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herokuapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Herokuapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ContextMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ContextMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DynamicControlsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DynamicControlsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FileUploadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FileUploadPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/ContextMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/ContextMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DropdownTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HoversTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InputsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NotificationMessageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SortableDataTablesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TyposTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/DynamicControlsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/DynamicControlsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsAvancedLevel/FileUploadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
       <recent name="testsAvancedLevel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileUploadTest.downloadPictureCheckNameFile">
+  <component name="RunManager" selected="TestNG.FrameTest.checkTheTextIntoParagraph">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,24 +88,6 @@
       <option name="PACKAGE_NAME" value="testsAvancedLevel" />
       <option name="MAIN_CLASS_NAME" value="testsAvancedLevel.ContextMenuTest" />
       <option name="METHOD_NAME" value="contextMenu" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicControlsTest.clickOnButtonAndWaitItsGone" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Herokuapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testsAvancedLevel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testsAvancedLevel" />
-      <option name="MAIN_CLASS_NAME" value="testsAvancedLevel.DynamicControlsTest" />
-      <option name="METHOD_NAME" value="clickOnButtonAndWaitItsGone" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,13 +149,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrameTest.checkTheTextIntoParagraph" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Herokuapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testsAvancedLevel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testsAvancedLevel" />
+      <option name="MAIN_CLASS_NAME" value="testsAvancedLevel.FrameTest" />
+      <option name="METHOD_NAME" value="checkTheTextIntoParagraph" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FrameTest.checkTheTextIntoParagraph" />
+        <item itemvalue="TestNG.DynamicControlsTest.findInput" />
+        <item itemvalue="TestNG.DynamicControlsTest.findCheckBox" />
         <item itemvalue="TestNG.FileUploadTest.downloadPictureCheckNameFile" />
         <item itemvalue="TestNG.ContextMenuTest.contextMenu" />
-        <item itemvalue="TestNG.DynamicControlsTest.findInput" />
-        <item itemvalue="TestNG.DynamicControlsTest.clickOnButtonAndWaitItsGone" />
-        <item itemvalue="TestNG.DynamicControlsTest.findCheckBox" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638458049784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add ContextMenuPage">
+      <created>1638478456750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638478456750</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

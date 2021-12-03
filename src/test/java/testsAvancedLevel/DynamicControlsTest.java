@@ -42,6 +42,8 @@ public class DynamicControlsTest extends BaseTest {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("message")));
 
+        Assert.assertTrue(dynamicControlsPage.input(), "Input enabled");
+
         Assert.assertEquals(dynamicControlsPage.buttonEnableOrDisableText(), "Disable", "Text not as expected");
 
     }

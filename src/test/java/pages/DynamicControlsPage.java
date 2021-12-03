@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 public class DynamicControlsPage extends BasePage {
 
 
-
     public static final By CHECKBOX = By.xpath("//input[@type='checkbox']");
     public static final By BUTTON_REMOVE = By.xpath("//form[@id='checkbox-example']/button");
     public static final By TEXT_ITSGONE = By.xpath("//p[@id='message']");
@@ -20,7 +19,7 @@ public class DynamicControlsPage extends BasePage {
     }
 
     public void open() {
-        driver.get(herokuapp+"dynamic_controls");
+        driver.get(herokuapp + "dynamic_controls");
     }
 
     public int findCheckBox() {

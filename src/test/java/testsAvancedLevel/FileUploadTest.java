@@ -3,12 +3,15 @@ package testsAvancedLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class FileUploadTest extends BaseTest{
+import java.io.File;
+
+public class FileUploadTest extends BaseTest {
 
     @Test
-    public void downloadPictureCheckNameFile(){
+    public void downloadPictureCheckNameFile() {
         fileUploadPage.open();
-        fileUploadPage.downloadInUploadPicture();
+        File file = new File("src/test/resources/1_small-4.jpg");
+        fileUploadPage.buttonUpload().sendKeys(file.getAbsolutePath());
         fileUploadPage.clickSubmitButton();
         Assert.assertEquals(fileUploadPage.fileUploaded(), "File Uploaded!", "File not found");
     }
