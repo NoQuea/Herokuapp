@@ -1,3 +1,5 @@
+package testsBaseLevel;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -7,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class SortableDataTablesTest extends BaseTest{
+public class SortableDataTablesTest extends BaseTest {
 
     @Test
     public void checkTheContentsOfSeveralTableCells(){
